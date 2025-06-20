@@ -1,13 +1,64 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
-        body {
-            min-height: 100vh;
+body {
+    min-height: 100vh;
+    background-color: #24353F;
+}
 
-            background-color: #24353F;
-        }
+.box {
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353F;
+}
 
+.text-header {
+    color: RGB(23, 162, 184);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ffffff88 !important;
+    opacity: 0.5;
+    /* Firefox */
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+button:hover{
+    color: #fff !important;
+}
+/* how i can change the placeholder of the input color to white 
+
+
+
+*/
