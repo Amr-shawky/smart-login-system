@@ -66,7 +66,7 @@ function login() {
             let username = userinfo[i].username;
             localStorage.setItem("loggedInUsername", username);
             swal("Login successful!").then(() => {
-                window.location.href = "../screens/home.html"; // Example redirect
+                window.location.href = "../home.html"; // Example redirect
             });
             // If you want to set the username on the next page, retrieve it from localStorage there
             return;
