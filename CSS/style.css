@@ -32,6 +32,10 @@ body {
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+.navbar {
+    background-color: #24353F !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
 
 input,
 textarea {
