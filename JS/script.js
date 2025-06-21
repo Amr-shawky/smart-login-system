@@ -98,7 +98,7 @@ window.onload = function() {
 function logout() {
     localStorage.removeItem("loggedInUsername");
     swal("Logged out successfully!").then(() => {
-        window.location.href = "../index.html"; // Redirect to login page
+        window.location.href = "index.html"; // Redirect to login page
     });
 }
 
